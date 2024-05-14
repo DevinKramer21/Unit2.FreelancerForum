@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelancer Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="filters">
+        <label for="occupation-filter">Filter by Occupation:</label>
+        <select id="occupation-filter">
+            <option value="all">All</option>
+          
+        </select>
+        <label for="sort-by">Sort by:</label>
+        <select id="sort-by">
+            <option value="price-low-to-high">Price: Low to High</option>
+            <option value="price-high-to-low">Price: High to Low</option>
+        </select>
+    </div>
+    <div id="freelancer-list"></div>
+    <p>Average starting price: <span id="average-price">$0</span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
